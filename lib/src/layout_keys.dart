@@ -5,11 +5,15 @@ abstract class VirtualKeyboardLayoutKeys {
   int activeIndex = 0;
 
   List<List> get defaultEnglishLayout => _defaultEnglishLayout;
+
   List<List> get defaultArabicLayout => _defaultArabicLayout;
+
   List<List> get defaultRuLayout => _defaultRuLayout;
 
   List<List> get activeLayout => getLanguage(activeIndex);
+
   int getLanguagesCount();
+
   List<List> getLanguage(int index);
 
   void switchLanguage() {
@@ -22,6 +26,7 @@ abstract class VirtualKeyboardLayoutKeys {
 
 class VirtualKeyboardDefaultLayoutKeys extends VirtualKeyboardLayoutKeys {
   List<VirtualKeyboardDefaultLayouts> defaultLayouts;
+
   VirtualKeyboardDefaultLayoutKeys(this.defaultLayouts);
 
   int getLanguagesCount() => defaultLayouts.length;
@@ -110,6 +115,9 @@ const List<List> _defaultEnglishLayout = [
     VirtualKeyboardKeyAction.SwithLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
+    '.com',
+    '.ru',
+    '.by',
     '&',
     '_',
   ]
@@ -263,6 +271,9 @@ const List<List> _defaultRuLayout = [
     VirtualKeyboardKeyAction.SwithLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
+    '.com',
+    '.ru',
+    '.by',
     '&',
     '_',
   ]
