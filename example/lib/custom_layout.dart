@@ -2,7 +2,7 @@ import 'package:virtual_keyboard_multi_language/virtual_keyboard_multi_language.
 
 class CustomLayoutKeys extends VirtualKeyboardLayoutKeys {
   @override
-  int getLanguagesCount() => 2;
+  int getLanguagesCount() => 3;
 
   List<List> getLanguage(int index) {
     switch (index) {
