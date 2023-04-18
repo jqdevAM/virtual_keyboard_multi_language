@@ -114,12 +114,12 @@ const List<List> _defaultEnglishLayout = [
   const [
     VirtualKeyboardKeyAction.SwithLanguage,
     '@',
+    '&',
+    '_',
     VirtualKeyboardKeyAction.Space,
     '.com',
     '.ru',
-    '.by',
-    '&',
-    '_',
+    '.by'
   ]
 ];
 
@@ -270,11 +270,11 @@ const List<List> _defaultRuLayout = [
   const [
     VirtualKeyboardKeyAction.SwithLanguage,
     '@',
+    '&',
+    '_',
     VirtualKeyboardKeyAction.Space,
     '.com',
     '.ru',
-    '.by',
-    '&',
-    '_',
+    '.by'
   ]
 ];
