@@ -27,6 +27,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   // Holds the text that user typed.
   String text = '';
+
   // CustomLayoutKeys _customLayoutKeys;
   // True if shift enabled.
   bool shiftEnabled = false;
@@ -84,7 +85,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   //width: 500,
                   textColor: Colors.white,
                   textController: _controllerText,
-                  //customLayoutKeys: _customLayoutKeys,
                   defaultLayouts: [
                     VirtualKeyboardDefaultLayouts.English,
                     VirtualKeyboardDefaultLayouts.Ru

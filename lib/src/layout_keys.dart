@@ -44,6 +44,8 @@ class VirtualKeyboardDefaultLayoutKeys extends VirtualKeyboardLayoutKeys {
 const List<List> _defaultEnglishLayout = [
   // Row 1
   const [
+    '!',
+    '\$',
     '1',
     '2',
     '3',
@@ -54,6 +56,10 @@ const List<List> _defaultEnglishLayout = [
     '8',
     '9',
     '0',
+    '(',
+    ')',
+    '-',
+    '+'
   ],
   // Row 2
   const [
@@ -184,6 +190,8 @@ const List<List> _defaultArabicLayout = [
 const List<List> _defaultRuLayout = [
   // Row 1
   const [
+    '!',
+    '\$',
     '1',
     '2',
     '3',
@@ -194,6 +202,10 @@ const List<List> _defaultRuLayout = [
     '8',
     '9',
     '0',
+    '(',
+    ')',
+    '-',
+    '+'
   ],
   // Row 2
   const [
