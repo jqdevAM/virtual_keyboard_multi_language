@@ -332,6 +332,7 @@ class _VirtualKeyboardState extends State<VirtualKeyboard> {
               });
             },
             child: Container(
+              color: Colors.transparent,
               height: double.infinity,
               width: double.infinity,
               child: Icon(
